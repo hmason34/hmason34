@@ -1,7 +1,9 @@
+---
 layout: post
 title: "AppSec Pen Testing & Secure Code Review: Filter Bypasses"
-date: 2022-06-22 hh:mm:ss -0000
+date: 2022-06-23
 categories: "Secure Code Review" "Pen Testing" "AppSec"
+---
 
 # AppSec Pen Testing & Secure Code Review: Filter Bypasses
 Filters are a common thing to run into while performing web application and API security assessments. Commonly, developers attempt to prevent things like Cross-Site Scripting, Open Redirect, or Server-Side Request Forgery with some type of input validation that can be bypassed. This article is meant to teach **why** these bypasses work, what an example of code would look like and how to creatively discover new ones instead of throwing a list of common strings at it and hoping it will work.
