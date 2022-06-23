@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "AppSec Pen Testing & Secure Code Review: Filter Bypasses"
-date: 2022-06-23
+date: "2022-06-23"
 categories: "Secure Code Review" "Pen Testing" "AppSec"
+author: "Hunter Mason"
 ---
 
 # AppSec Pen Testing & Secure Code Review: Filter Bypasses
