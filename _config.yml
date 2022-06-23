@@ -1,7 +1,9 @@
-theme: jekyll-theme-slate
-title: Hunter's Security Blog
-author: Hunter Mason
+baseurl: ""
+url: "https://hmason34.github.io"
+theme: "jekyll-theme-slate"
+title: "Hunter's Security Blog"
+author: "Hunter Mason"
 
 social-network-links:
-  github: hmason34
-  linkedin: hunter-mason
+  github: "hmason34"
+  linkedin: "hunter-mason"
