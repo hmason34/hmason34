@@ -1,5 +1,6 @@
 ---
 layout: default
+theme: theme: jekyll-theme-slate
 title: Index
 ---
 <h1>Welcome to Hunter's Security Blog</h1>
@@ -14,7 +15,7 @@ title: Index
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="hmason34/{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="hmason34{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
     </li>
   {% endfor %}
