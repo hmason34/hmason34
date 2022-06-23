@@ -5,7 +5,6 @@ date: 2022-06-23
 author: Hunter Mason
 ---
 
-# Filter Bypasses in Application Security
 Filters are a common thing to run into while performing web application and API security assessments. Commonly, developers attempt to prevent things like Cross-Site Scripting, Open Redirect, or Server-Side Request Forgery with some type of input validation that can be bypassed. This article is meant to teach **why** these bypasses work, what an example of code would look like and how to creatively discover new ones instead of throwing a list of common strings at it and hoping it will work.
 
 ## Non-Recursive Filters
